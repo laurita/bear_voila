@@ -1,4 +1,4 @@
-name: bear_voila
+name: fastbook
 channels:
     - fastai
     - pytorch
