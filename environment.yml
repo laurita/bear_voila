@@ -1,11 +1,14 @@
 channels:
     - fastai
     - pytorch
+    - conda-forge
     - defaults
 dependencies:
   - python=3.10
   - pytorch
   - torchvision
   - pip
+  - jupyterlab_widgets
+  - ipywidgets
   - pip:
     - -r requirements.txt
