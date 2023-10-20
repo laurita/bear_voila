@@ -5,7 +5,7 @@ channels:
     - defaults
 dependencies:
   - python=3.10
-  - pytorch>=1.6
+  - pytorch
   - torchvision
   - pip
   - pip:
