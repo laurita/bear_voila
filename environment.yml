@@ -8,7 +8,6 @@ dependencies:
   - pytorch
   - torchvision
   - pip
-  - jupyterlab_widgets
-  - ipywidgets
+  - jupyterlab_widgets=3.0.9
   - pip:
     - -r requirements.txt
