@@ -1,13 +1,16 @@
+name: fastbook_voila
 channels:
     - fastai
     - pytorch
-    - conda-forge
     - defaults
 dependencies:
-  - python=3.10
-  - pytorch
+  - python>=3.6
+  - pytorch<2.7,>=1.10
   - torchvision
+  - torchaudio
   - pip
-  - jupyterlab_widgets==3.0.9
+  - fastai
+  - fastbook
   - pip:
+    - pexels-api-py
     - -r requirements.txt

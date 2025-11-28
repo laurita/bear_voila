@@ -1,7 +1,6 @@
-fastai
-fastbook
+fastai>=2.0.0,<2.8.0
 graphviz
-ipywidgets==8.1.1
+ipywidgets
 matplotlib
 nbdev>=0.2.12
 pandas
